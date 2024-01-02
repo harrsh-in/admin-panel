@@ -1,12 +1,18 @@
 import { Outlet } from "react-router-dom";
+import AppBar from "../components/AppBar";
+import Box from "@mui/material/Box";
 
 const PrivateLayout = () => {
     return (
-        <div>
-            <h1>Private page</h1>
+        <Box
+            sx={{
+                px: 2,
+            }}
+        >
+            <AppBar />
 
             <Outlet />
-        </div>
+        </Box>
     );
 };
 
