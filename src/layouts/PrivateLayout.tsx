@@ -6,7 +6,7 @@ const PrivateLayout = () => {
     return (
         <Box
             sx={{
-                px: 2,
+                p: 2,
             }}
         >
             <AppBar />
